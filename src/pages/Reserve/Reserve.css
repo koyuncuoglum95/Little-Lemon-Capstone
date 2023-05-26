@@ -1,0 +1,86 @@
+.reserveForm {
+    background-color: #495E57;
+    color: white;
+    width: 25rem;
+    margin-left: 40rem;
+    border-radius: 5rem;
+    height: 40rem;
+}
+
+
+.input1 {
+    margin-left: 1rem;
+    width: 12rem;
+    height: 2rem;
+}
+
+.input2 {
+    margin-left: 2.6rem;
+    width: 12rem;
+    height: 2rem;  
+}
+
+.input3 {
+    margin-left: 2.2rem;
+    width: 12rem;
+    height: 2rem;  
+}
+
+.input4 {
+    margin-left: 2.9rem;
+    width: 12rem;
+    height: 2rem;  
+}
+
+.input5 {
+    margin-left: 2.9rem;
+    width: 12rem;
+    height: 2rem;
+}
+
+
+/* Smart Phones */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .reserveForm {
+        background-color: #495E57;
+        color: white;
+        width: 25rem;
+        margin-left: 2.6rem;
+        border-radius: 5rem;
+        height: 40rem;
+        margin-top: 2rem;
+        overflow-x: scroll;
+        overflow-y: scroll;
+    }
+
+    .input1 {
+        margin-left: 1rem;
+        width: 12rem;
+        height: 2rem;
+    }
+
+    .input2 {
+        margin-left: 2.6rem;
+        width: 12rem;
+        height: 2rem;  
+    }
+
+    .input3 {
+        margin-left: 2.2rem;
+        width: 12rem;
+        height: 2rem;  
+    }
+
+    .input4 {
+        margin-left: 2.9rem;
+        width: 12rem;
+        height: 2rem;  
+    }
+
+    .input5 {
+        margin-left: 2.9rem;
+        width: 12rem;
+        height: 2rem;
+    } 
+}

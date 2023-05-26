@@ -1,0 +1,47 @@
+.foodType {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+
+  .foodName {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 15rem;
+    background-color: gray;
+    border-radius: 15px;
+    height: 15px;
+    padding-top: 6px;
+    margin-top: 8px;
+  }
+
+/* Smart Phones */
+@media (min-width: 320px) and (max-width: 480px) {
+  .foodType {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ffffff;
+  }
+
+  .foodName {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      margin-left: 11rem;  /* Adjust margin for smaller screens */
+      background-color: gray;
+      border-radius: 15px;
+      height: 15px;
+      padding-top: 6px;
+      margin-top: 8px;
+      width: 6rem;
+  }
+}

@@ -1,0 +1,65 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffffde;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #495E57;
+    color: white;
+  }
+
+  .first-container {
+    background-color: #495E57;
+    height: 30rem;
+    margin-top: -21px;
+  }
+
+/* Smart Phones */
+  @media (min-width: 320px) and (max-width: 480px) {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ffffffde;
+    }
+  
+    li {
+      float: none; /* Adjust for mobile display */
+    }
+  
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+    li a:hover {
+      background-color: #495E57;
+      color: white;
+    }
+  
+    .first-container {
+      background-color: #495E57;
+      height: 30rem;
+      margin-top: -21px;
+    }
+  }
+  
